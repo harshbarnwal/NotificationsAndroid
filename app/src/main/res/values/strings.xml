@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Notifications</string>
+    <string name="Notify">Notify</string>
+    <string name="channel_name">Notification Channel 1</string>
+    <string name="channel_description">This is Notification Channel 1</string>
+    <string name="enter_title">Enter Title</string>
+    <string name="enter_message">Enter Message</string>
+    <string name="short_notification">Short Notification</string>
+    <string name="long_notification">Long Notification</string>
+    <string name="reply_notification">Reply Notification</string>
+    <string name="big_text">This is the big text notification example which is created by harsh, man this notification class is so fucking big, new android developers will surely loose their mind while learning this.</string>
+    <string name="longlist_notification">List Notification</string>
+    <string name="bigpicture_notification">BigPicture Notification</string>
+    <string name="media_notification">Media Notification</string>
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_margin="15dp"
+        android:id="@+id/edtxt_title"
+        android:textSize="30sp"
+        android:hint="@string/enter_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_margin="15dp"
+        android:id="@+id/edtxt_message"
+        android:textSize="30sp"
+        android:hint="@string/enter_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginTop="15dp"
+        android:id="@+id/short_noti_button"
+        android:text="@string/short_notification"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="shortNotification"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginTop="15dp"
+        android:id="@+id/long_noti_button"
+        android:text="@string/long_notification"
+        android:onClick="longNotification"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginTop="15dp"
+        android:id="@+id/longlist_noti_button"
+        android:text="@string/longlist_notification"
+        android:onClick="longListNotification"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginTop="15dp"
+        android:id="@+id/reply_noti_button"
+        android:text="@string/reply_notification"
+        android:onClick="actionNotification"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginTop="15dp"
+        android:id="@+id/bigpicture_noti_button"
+        android:text="@string/bigpicture_notification"
+        android:onClick="bigPictureNotification"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginTop="15dp"
+        android:id="@+id/media_noti_button"
+        android:text="@string/media_notification"
+        android:onClick="mediaNotification"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
